@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 30px;
+    background-color: #1F2936;
+    color: white;
+    width: 100%;
+}
+
+.header ul {
+    list-style-type: none;
+    padding: 8px;
+    margin: 0;
+    margin-left: auto;
+    display: flex;
+    gap: 16px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.main {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: black dotted 2px;
+}
+
+.init {
+    display: flex;
+    background-color: #1F2936;
+    padding: 15px;
+}
+
+.intro {
+    color: white;
+
+}
+
+.intro h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8
+}
+
+.intro h2 {
+    font-size: 30px;
+    color: #F9FAF8
+}
+
+.intro p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.init img {
+    height: 300px;
+    width: auto;
+}
+
+.references {
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 30px;
+    justify-content: center;
+}
+
+.projects img {
+    width: 200px;
+    height: auto;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    width: 100%;
+    background-color: #1F2936;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
